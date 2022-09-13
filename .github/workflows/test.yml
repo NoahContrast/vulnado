@@ -39,7 +39,7 @@ jobs:
 
       # Run Contrast Scan
       - name: Contrast Scan Action
-        uses: Contrast-Security-OSS/contrastscan-action@v2
+        uses: Contrast-Security-OSS/contrastscan-action@SCAN-4662-fail-action
         with:
           artifact: target/vulnado-0.0.1-SNAPSHOT.jar
           apiKey: ${{ secrets.CONTRAST_API_KEY }}
