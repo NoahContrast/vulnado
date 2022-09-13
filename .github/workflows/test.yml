@@ -46,8 +46,6 @@ jobs:
           orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
           apiUrl: ${{ secrets.CONTRAST_API_URL }}
           authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
-          fail: true
-          severity: low
 
       # Show SARIF results
       - name: Show SARIF
